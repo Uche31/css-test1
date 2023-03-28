@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+body{ 
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+   line-height: 1.5;
+    background-image: url("./bg-pattern-top-desktop.svg"),url("./bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: #fff
+    ;
+}
+.bar{
+    width: 10px;
+    height: 30px;
+    background-color: hsl(334, 100%, 95%);
+    color:  hsl(300, 43%, 22%);
+    font-weight: 400;
+    padding: 8px;
+    margin: 30px;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.one{
+margin-left: 650px;
+width: 500px;
+
+}
+.two{
+    margin-left: 700px;
+    width: 500px;
+    }
+ .three{
+        margin-left: 800px;
+        width: 500px;
+      }
+
+.cards{
+    display: flex;
+    background-color: hsl(300, 43%, 22%);
+    margin: 20px;
+    align-self:space-between;
+    width: 350px;
+    height: 150px; 
+    font-size: 13px;
+     flex-wrap: wrap;
+     padding: 10px;
+     border-radius: 10px;  
+}
+
+.cards:nth-of-type(1){
+    content:Coltan Smith ;
+    color: white;
+}
+
+h1{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 700;
+    font-size: 70px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.image{
+    border-radius: 50% ;
+    width: 50px;
+    height: 50px;
+}
+.general{
+display: flex;
+width: 100%x;
+justify-content: space-around;
+align-items: center;
+/* background-color: green; */
+}
+.container1 {
+    margin-top:150px;
+    width:100%;
+    padding: 20px;
+    display: flex; 
+    justify-content: left;
+    flex-direction: column;
+}
+
+.container2 {
+display: flex;
+flex-direction: column;
+color: white;
+font-weight: 400;
+margin-top: 150px;
+font-size: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 400;
+    margin-top: 100px;
+    background-color: black;
+}
